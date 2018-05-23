@@ -1,0 +1,138 @@
+/* ///////// MEDIA QUERIES /////// */
+               /* small media queries  */
+ @media screen and (min-width:481px) {
+    .small-col-2 {
+     width:15.5%
+    }
+    .small-col-4 {
+     width:32%
+    }
+    .small-col-6 {
+     width:48.5%
+    }
+    .small-col-8 {
+     width:65%
+    }
+    .small-col-10 {
+     width:81.5%
+    }
+    .small-offset-1 {
+     margin-left:8.75%
+    }
+    .small-offset-2 {
+     margin-left:17%
+    }
+   }
+                /* medium media queries  */
+@media screen and (min-width:768px) {
+    .medium-col-1 {
+     width:7.25%
+    }
+    .medium-col-2 {
+     width:15.5%
+    }
+    .medium-col-3 {
+     width:23.75%
+    }
+    .medium-col-4 {
+     width:32%
+    }
+    .medium-col-6 {
+     width:48.5%
+    }
+    .medium-col-7 {
+     width:56.75%
+    }
+    .medium-col-8 {
+     width:65%
+    }
+    .medium-col-10 {
+     width:81.5%
+    }
+    .medium-offset-0 {
+     margin-left:.5%
+    }
+    .medium-offset-1 {
+     margin-left:8.75%
+    }
+    .medium-offset-2 {
+     margin-left:17%
+    }
+    .medium-block {
+     display:block
+    }
+    .medium-txt-left {
+     text-align:left
+    }
+    .content-title {
+     margin-bottom:0
+    }
+   }
+                /* large media queries  */
+ @media screen and (min-width:980px) {
+    .large-col-right {
+     float:right;
+     width:99%;
+     margin-left:.5%;
+     margin-right:.5%
+    }
+    .large-col-1 {
+     width:7.25%
+    }
+    .large-col-2 {
+     width:15%
+    }
+    .large-col-3 {
+     width:23.75%
+    }
+    .large-col-4 {
+     width:32%
+    }
+    .large-col-5 {
+     width:40.25%
+    }
+    .large-col-6 {
+     width:48.5%
+    }
+    .large-col-7 {
+     width:56.75%
+    }
+    .large-col-8 {
+     width:65%
+    }
+    .large-offset-0 {
+     margin-left:.5%
+    }
+    .large-offset-0-5 {
+     margin-left:5%
+    }
+    .large-offset-1 {
+     margin-left:8.75%
+    }
+    .large-offset-1-5 {
+     margin-left:12.875%
+    }
+    .large-offset-2 {
+     margin-left:18%
+    }
+    .large-offset-2-5 {
+     margin-left:21.125%
+    }
+    .large-offset-3 {
+     margin-left:25.25%
+    }
+    .large-offset-right-1 {
+     margin-right:9.75%
+    }
+    .content-list-detail {
+     display:inline-block;
+     margin-left:0
+    }
+   }
+@media screen and (min-width:1201px) {
+    .row {
+     margin-left:auto;
+     margin-right:auto;
+     max-width:1200px
+    }
+   }
