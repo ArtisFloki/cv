@@ -126,118 +126,6 @@ a:hover
 }
 /* fin test bouton */
 
-/* début menu */
-/*.pos-f-t ul {
-  list-style-type: none;
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-left: 20px;
-  padding: 0;
-  width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0;
-  width: 50%;
-}
-
-.pos-f-t li {
-  display: inline-flex;
-  justify-content: space-around;
-  margin: 0;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-.pos-f-t a {
-    color: rgba(99,48,74,0.8);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.pos-f-t a:hover {
-    color: rgba(209,135,135,0.8);
-    text-decoration: none;
-}
-
-.pos-f-t {
-  z-index: 20;
-}
-
-#navbarToggleExternalContent {
-  margin: 80px 10% 0 1.5%;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-
-}
-
-.navbar-toggler {
-  display: flex;
-  justify-content: flex-start;
-  background-color: rgba(99,48,74,0.8);
-}
-
-.pos-f-t {
-  position: fixed;
-  width: 100%;
-}
-
-.bg-dark {
-  background-color: #63304a;
-
-}
-
-.p-4 {
-  padding: 0;
-}
-
-nav {
-  display: inline-block;
-  position: fixed;
-  width: 15%;
-  margin: 0 0 0 2%;
-  padding: 0;
-
-}*/
-/* fin menu */
-
-
-.button-verticale {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  position: fixed;
-  top: 40%;
-  margin-left: 98%;
-  width: 30px;
-  z-index: 1;
-}
-
-.button-verticale a {
-  border-radius: 50%;
-  width: 40%;
-  height: 50%;
-}
-
-
-.button-verticale img {
-  width: 100%;
-}
-
-
-.button-verticale img:hover {
-  background-color: #63304a;
-  border-radius: 50%;
-  width: 100%;
-  height: auto;
-}
-
 /* 1ère slide */
 header {
   position: absolute;
@@ -245,7 +133,6 @@ header {
   width: 100%;
   height: 100%;
   background-image: url('/img/mountain.jpg');
-  /*transform: translateY(-19%);*/
   background-size: cover;
   background-position: center center;
   z-index: 0;
@@ -373,7 +260,7 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 20%;
+  width: 25%;
 }
 
 .apropos h3 {
@@ -394,14 +281,14 @@ header {
   border-radius: 50%;
   border: 8px solid #fff;
   box-shadow: 5px 5px 15px gray;
-  margin: 0 10%;
+  margin: 0 5%;
 }
 
 .details {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 20%;
+  width: 25%;
 }
 
 .details h3 {
@@ -584,6 +471,10 @@ header {
 .mail img {
   width: 30px;
   height: 30px;
+}
+
+.phone a:hover , .mail a:hover {
+  text-decoration-color: #63304a;
 }
 
 /* Début formulaire */
