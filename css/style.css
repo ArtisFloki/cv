@@ -416,9 +416,10 @@ header {
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
-  width: 30%;
+  flex-wrap: wrap;
+  width: 40%;
   margin: 5% 0 0 10%;
-  height: 30%;
+  height: 80%;
 }
 
 .icones img {
@@ -433,27 +434,30 @@ header {
 }
 
 .coordonnees {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0px;
-  margin-left: 0%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-left: 0;
+  width: 80%;
+  height: 80px;
+
   /*transform: translateX(-75%);*/
 }
 
 .coordonnees p {
   font-family: 'Josefin Sans', sans-serif;
   color: rgb(110,110,110);
-  padding-left: 10%;
+  padding-left: 20px;
   margin: 0;
 }
 
 .phone {
   display: inline-flex;
   align-items: center;
-  margin: 0 0 0 20%;
-  align-items: center;
+  margin: 0;
+  width: 100%;
 }
 
 .phone img {
@@ -464,8 +468,7 @@ header {
 .mail {
   display: inline-flex;
   align-items: center;
-  margin: 0 0 0 20%;
-  align-items: center;
+  width: 100%;
 }
 
 .mail img {
@@ -476,6 +479,32 @@ header {
 .phone a:hover , .mail a:hover {
   text-decoration-color: #63304a;
 }
+
+/* CV pdf */
+.cv_pdf {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+}
+
+.cv_pdf a {
+  width: 50px;
+  height: 50px;
+}
+.cv_pdf img {
+  width: 50px;
+  height: auto;
+}
+
+.cv_pdf p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(110,110,110);
+  margin: 0;
+  line-height: 12pt;
+}
+/* fin CV pdf */
 
 /* Début formulaire */
 form {
@@ -541,6 +570,7 @@ form button:hover {
   cursor: pointer;
 }
 /* fin formulaire */
+
 
 /* début scroll to top */
 #top{
